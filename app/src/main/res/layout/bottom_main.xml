@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_bottom_3button"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal" android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:gravity="bottom|center_horizontal"
+    android:background="#4094d9">
+
+    <Button
+        android:id="@+id/bt_global_Resources"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:text="@string/bt_main_resources"
+        android:background="#2ea98c" />
+    <Button
+        android:id="@+id/bt_global_Schoolmates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:text="@string/bt_main_schoolmates"
+        android:background="#2ea98c" />
+    <Button
+        android:id="@+id/bt_global_Me"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:text="@string/bt_main_me"
+        android:background="#2ea98c" />
+
+</LinearLayout>
